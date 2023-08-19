@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: auto;
+
+}
+.navbar ul{
+    display: flex;
+}
+.navbar li{
+    list-style-type: none;
+    padding: 30px 20px;
+ 
+
+}
+.navbar li a:hover{
+    color: blue;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+.logo img{
+    width: 2rem;
+    height: 2rem;
+}
+.logo a{
+     text-decoration: none;
+}
+.logo{
+    color: blue;
+   
+}
+.search-bar h1{
+margin-bottom: 30px;
+font-weight: bold;
+color: white;
+
+}
+.search-bar input:hover{
+    border: 1px solid red;
+    outline: none;
+   
+}
+.search-bar input{
+    padding: 9px 0 9px 16px;
+    border: none;
+    width: 50%;
+    height: 60px;
+    border-radius: 5px;
+    outline: 2px solid blue;
+  
+   
+}
+.search-bar{
+    background: url(pictures/nature.jpeg) no-repeat center;
+   background-size:100% ;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+img{
+    width: 30%;
+}
+span{
+    display: block;
+    margin: 20px auto;
+}
+.flex{
+    display: flex;
+    padding: 30px 10px;
+    gap: 30px;
+}
+
+.sign-in {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    padding: 10px;
+   align-items: center;
+   margin: 50px 10px;
+} 
+.flex{
+    background-color: #CCC;
+  
+    padding: 50px 15px;
+   
+}
+.content{
+    text-align: center;
+}
+.sign-in button{
+    padding: 15px 20px;
+    border: 1px solid blue;
+    border-radius: 3px;
+}
+.sell-home, .buy-home, .rent-home{
+    box-sizing: border-box;
+    padding: 0 20px;
+    background-color: white;
+    text-align: center;
+    line-height: 1.5em;
+    transition: .3s;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px 1px grey;
+    font-size: 18px;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.sell-home:hover, .buy-home:hover, .rent-home:hover{
+ transform: scale(1.05);
+ 
+}
+.sell-home h1, .buy-home h1, .rent-home h1{
+    margin: 20px 0;
+}
+.flex button{
+    padding: 15px 20px;
+    border: 1px solid blue;
+    border-radius: 3px;
+    margin: 50px 0;
+}
+.sell-home img, .buy-home img, 
+.rent-home img{
+    width: 90%;
+    margin-top: 40px;
+}
+.sell-home:hover button, .buy-home:hover button, .rent-home:hover button{
+   
+   background-color: blue;
+
+}
+.flex a{
+    text-decoration: none;
+    color: black;
+}
