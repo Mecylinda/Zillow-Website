@@ -3,6 +3,41 @@
     margin: 0;
     box-sizing: border-box;
 }
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  left: 160px;
+  display: none;
+ 
+}
+.openMobileNav{
+    transform: translateX(-160px);
+   
+}
+.bar1, .bar2, .bar3{
+    height: 5px;
+    width: 30px;
+    background-color: black;
+    margin: 5px 0;
+    transition: 0.4s;
+   
+}
+.change .bar1{
+    transform: translate(0, 11px) rotate(-45deg);
+}
+.change .bar3{
+    transform: translate(0, -11px) rotate(45deg);
+}
+.change .bar2{
+    opacity: 0;
+}
+.hamburger{
+    padding: 10PX;
+    display: inline-block;
+    cursor: pointer;
+    /* display: none; */
+    position: relative;
+}
 
 .navbar{
 display: flex;
@@ -146,3 +181,6 @@ span{
     text-decoration: none;
     color: black;
 }
+/* @media screen {max-width: 890px;
+    
+} */
