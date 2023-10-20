@@ -1,0 +1,21 @@
+body{
+    background-color: lightblue;
+
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.btn-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+   
+}
+.btn{
+    margin-left: 10px;
+}
